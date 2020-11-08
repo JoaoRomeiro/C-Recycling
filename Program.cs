@@ -787,13 +787,13 @@ namespace Aula
             Console.WriteLine("Para: {0}", num2);
         }
 
-        // Passagem por referencia
+        // Passagem por referencia, utiliza a mesma posição de memória da variável que esta sendo passada na chamada do método
         static void Dobrar1(ref int valor)
         {
             valor *= 2;
         }
 
-        // Passagem por valor
+        // Passagem por valor, cria uma nova posição de memória e para retornar o valor calculado é preciso adicionar um retorno ao método
         static void Dobrar2(int valor)
         {
             valor *= 2;
