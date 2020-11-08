@@ -774,12 +774,27 @@ namespace Aula
     {
         public static void Aula()
         {
-            int num = 10;
-            Dobrar(num);
-            Console.WriteLine(num);
+            int num1 = 50;
+            Console.WriteLine("\nPassgem por referência");
+            Console.WriteLine("De: {0}", num1);
+            Dobrar1(ref num1);
+            Console.WriteLine("Para: {0}", num1);
+
+            int num2 = 50;
+            Console.WriteLine("\nPassgem por referência");
+            Console.WriteLine("De: {0}", num2);
+            Dobrar2(num2);
+            Console.WriteLine("Para: {0}", num2);
         }
 
-        static void Dobrar(int valor)
+        // Passagem por referencia
+        static void Dobrar1(ref int valor)
+        {
+            valor *= 2;
+        }
+
+        // Passagem por valor
+        static void Dobrar2(int valor)
         {
             valor *= 2;
         }
