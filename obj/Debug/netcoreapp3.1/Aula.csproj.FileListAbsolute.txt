@@ -1,0 +1,13 @@
+C:\wamp64\www\estudo\csharp\CFBCursos\bin\Debug\netcoreapp3.1\Aula.exe
+C:\wamp64\www\estudo\csharp\CFBCursos\bin\Debug\netcoreapp3.1\Aula.deps.json
+C:\wamp64\www\estudo\csharp\CFBCursos\bin\Debug\netcoreapp3.1\Aula.runtimeconfig.json
+C:\wamp64\www\estudo\csharp\CFBCursos\bin\Debug\netcoreapp3.1\Aula.runtimeconfig.dev.json
+C:\wamp64\www\estudo\csharp\CFBCursos\bin\Debug\netcoreapp3.1\Aula.dll
+C:\wamp64\www\estudo\csharp\CFBCursos\bin\Debug\netcoreapp3.1\Aula.pdb
+C:\wamp64\www\estudo\csharp\CFBCursos\obj\Debug\netcoreapp3.1\Aula.csprojAssemblyReference.cache
+C:\wamp64\www\estudo\csharp\CFBCursos\obj\Debug\netcoreapp3.1\Aula.AssemblyInfoInputs.cache
+C:\wamp64\www\estudo\csharp\CFBCursos\obj\Debug\netcoreapp3.1\Aula.AssemblyInfo.cs
+C:\wamp64\www\estudo\csharp\CFBCursos\obj\Debug\netcoreapp3.1\Aula.csproj.CoreCompileInputs.cache
+C:\wamp64\www\estudo\csharp\CFBCursos\obj\Debug\netcoreapp3.1\Aula.dll
+C:\wamp64\www\estudo\csharp\CFBCursos\obj\Debug\netcoreapp3.1\Aula.pdb
+C:\wamp64\www\estudo\csharp\CFBCursos\obj\Debug\netcoreapp3.1\Aula.genruntimeconfig.cache
