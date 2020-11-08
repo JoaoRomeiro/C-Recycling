@@ -6,7 +6,7 @@ namespace Aula
     {
         static void Main(string[] args)
         {
-            Aula025.Aula();
+            Aula026.Aula();
             //Jogo.Jogar();
         }
     }
@@ -769,7 +769,11 @@ namespace Aula
         }
     }
 
-    // Passagem por valor e passagem por referência
+    /**
+        Passagem por valor e passagem por referência
+
+        A palavra-chave ref indica que um valor é passado por referencia.
+    */
     public class Aula025
     {
         public static void Aula()
@@ -797,6 +801,32 @@ namespace Aula
         static void Dobrar2(int valor)
         {
             valor *= 2;
+        }
+    }
+
+    /**
+        Argumento out - Curso Programação Completo C# - Aula 26
+        A palavra-chave out faz com que os argumentos sejam passados por referência.
+        Ele funciona semelhante a palavra-chave ref, com a diferença de que ref requer que a
+        variável seja inicializada antes de ser passada.
+    */
+    public class Aula026
+    {
+        public static void Aula()
+        {
+            double dividendo = 10;
+            double divisor = 3;
+            double resto = 0;
+            double quociente = Divide(dividendo, divisor, out resto);
+
+            Console.WriteLine(quociente);
+            Console.WriteLine(resto);
+        }
+
+        static double Divide(double dividendo, double divisor, out double resto)
+        {
+            resto = dividendo % divisor;
+            return dividendo / divisor;
         }
     }
 
