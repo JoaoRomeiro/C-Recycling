@@ -6,8 +6,8 @@ namespace Aula
     {
         static void Main(string[] args)
         {
-            //Aula024.Aula();
-            Jogo.Jogar();
+            Aula025.Aula();
+            //Jogo.Jogar();
         }
     }
 
@@ -746,6 +746,7 @@ namespace Aula
         public static void Aula()
         {
             DizerOla(5);
+            SomaInteiros(10, 20);
         }
 
         public static void DizerOla(int num)
@@ -754,6 +755,33 @@ namespace Aula
             {
                 Console.WriteLine("Olá Mundo: {0, 5}", i);
             }
+        }
+
+        public static int SomaInteiros(int num1, int num2)
+        {
+            int retorno = 0;
+
+            retorno = num1 + num2;
+
+            Console.WriteLine("O resultado da soma de {0} + {1} = {2}", num1, num2, retorno);
+
+            return retorno;
+        }
+    }
+
+    // Passagem por valor e passagem por referência
+    public class Aula025
+    {
+        public static void Aula()
+        {
+            int num = 10;
+            Dobrar(num);
+            Console.WriteLine(num);
+        }
+
+        static void Dobrar(int valor)
+        {
+            valor *= 2;
         }
     }
 
