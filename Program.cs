@@ -6,7 +6,7 @@ namespace Aula
     {
         static void Main(string[] args)
         {
-            Aula026.Aula();
+            Aula027.Aula();
             //Jogo.Jogar();
         }
     }
@@ -827,6 +827,33 @@ namespace Aula
         {
             resto = dividendo % divisor;
             return dividendo / divisor;
+        }
+    }
+
+    /**
+        Argumento params - Curso Programação Completo C# - Aula 27
+        Usando a palavra-chave params, você pode especificar um parâmetro do método que aceita um número variável de argumentos.
+        O tipo de parâmetro deve ser uma matriz unidimensional.
+        Nenhum parâmetro adicional é permitido após a palavra-chave params em uma declaração de método e
+        apenas uma palavra-chave params é permitida em uma declaração de método.
+    */
+    public class Aula027
+    {
+        public static void Aula()
+        {
+            Console.WriteLine(Somar(1,2,3,4));
+        }
+
+        public static int Somar(params int[] n)
+        {
+            int resultado = 0;
+
+            for (int i = 0; i < n.Length; i++)
+            {
+                resultado += n[i];
+            }
+
+            return resultado;
         }
     }
 
