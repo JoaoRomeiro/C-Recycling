@@ -6,7 +6,7 @@ namespace Aula
     {
         static void Main(string[] args)
         {
-            Aula027.Aula();
+            Aula028.Aula();
             //Jogo.Jogar();
         }
     }
@@ -841,7 +841,7 @@ namespace Aula
     {
         public static void Aula()
         {
-            Console.WriteLine(Somar(1,2,3,4));
+            Console.WriteLine(Somar(1, 2, 3, 4));
         }
 
         public static int Somar(params int[] n)
@@ -854,6 +854,22 @@ namespace Aula
             }
 
             return resultado;
+        }
+    }
+
+    /**
+        Classes e Objetos - Curso Programação Completo C# - Aula 28
+
+        Uma classe é uma estrutura de dados que pode conter membros de dados (constantes e campos),
+        membros de função (métodos, propriedades, eventos, indexadores, operadores, construtores de instância,
+        destruidores e construtores estáticos) e tipos aninhados. Os tipos de classe dão suporte à herança,
+        um mecanismo no qual uma classe derivada pode estender e especializar uma classe base.
+    */
+    public class Aula028
+    {
+        public static void Aula()
+        {
+
         }
     }
 
